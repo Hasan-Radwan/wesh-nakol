@@ -1,0 +1,11 @@
+name = "wesh-nakol"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "public"
+
+# قاعدة بيانات التصويت (D1)
+# بعد إنشائها بأمر: wrangler d1 create wesh-nakol-db
+# انسخ الـ database_id الناتج هنا مكان PLACEHOLDER.
+[[d1_databases]]
+binding       = "DB"
+database_name = "wesh-nakol-db"
+database_id   = "3526ede7-e9a7-42b3-aa36-d6fb1f332fe7"
